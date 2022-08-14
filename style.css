@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+  background: #333;
+}
+
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+}
+
+a{
+  display: block;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-top: 3px solid rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  letter-spacing: 4px;
+  transition: all .35s;
+}
+
+a:hover{
+  letter-spacing: 55px;
+}
